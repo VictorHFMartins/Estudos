@@ -16,12 +16,14 @@ public class ex_2 {
         boolean contagem[] = new boolean[5];
 
         for (int i = 0; i < contagem.length; i++) {
-            contagem[0] = ((a + c) > b) ? true : false;
-            contagem[1] = (b >= (a + 2)) ? true : false;
-            contagem[2] = (c == (b - a)) ? true : false;
-            contagem[3] = ((b + a) <= c) ? true : false;
-            contagem[4] = ((c + a) > b) ? true : false;
+            contagem[0] = ((a + c) > b);
+            contagem[1] = (b >= (a + 2));
+            contagem[2] = (c == (b - a));
+            contagem[3] = ((b + a) <= c);
+            contagem[4] = ((c + a) > b);
+
             System.out.println("resultado " + (i + 1) + " :" + contagem[i]);
         }
     }
 }
+
