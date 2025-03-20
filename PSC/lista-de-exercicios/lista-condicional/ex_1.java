@@ -1,5 +1,4 @@
 //Tendo as variáveis salario, ir e salliq, e considerando os valores abaixo, informe se as expressões são verdadeiras ou falsas:
-
 //Salario   IR  Salliq  Expressão                      V/F
 // 100      0    100    (salliq >= 100)             Verdadeiro
 // 200      10   190    (salliq < 190)                Falso
@@ -20,13 +19,9 @@ public class ex_1 {
         do {
             System.out.println("A veracidade da expressão é: " + conta(salario, ir, salliq, res));
            
-            System.out.println("Precione x para tentar novamente...");
+            System.out.println("Pressione x para tentar novamente, ou qualquer outra tecla para finalizar...");
             repeat = sc.nextLine().toLowerCase();
-            while (repeat.length() > 1) {
-                System.out.println("valor inserido não correspondente. Por favor, digite X...");
-                repeat = sc.nextLine().toLowerCase();
-            }
-        } while (repeat.equals("x"));
+         } while (repeat.equals("x"));
 
         sc.close();
     }
@@ -45,7 +40,7 @@ public class ex_1 {
 
         cont = x - y;
 
-        k = (z == cont) ? true : false;
+        k = (z == cont);
 
         return k;
     }
