@@ -4,45 +4,50 @@
 // 200      10   190    (salliq < 190)                Falso
 // 300      15   285    (salliq = salario + ir)       Falso
 
-
 import java.util.Scanner;
 
 public class ex_1 {
 
-    public static void main(String[] args) {
+    static Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-        double salario = 0, ir = 0, salliq = 0;
-        boolean res = false;
+    public static void main(String[] args) {
         String repeat;
 
         do {
-            System.out.println("A veracidade da expressão é: " + conta(salario, ir, salliq, res));
-           
-            System.out.println("Pressione x para tentar novamente, ou qualquer outra tecla para finalizar...");
-            repeat = sc.nextLine().toLowerCase();
-         } while (repeat.equals("x"));
+            System.out.println("A veracidade da expressão é: " + conta());
 
+            System.out.println("Pressione x para tentar novamente, ou qualquer outra tecla para finalizar...");
+            sc.nextLine();
+            repeat = sc.nextLine().toLowerCase();
+
+        } while (repeat.equals("x"));
+        
         sc.close();
     }
 
-    public static boolean conta(double x, double y, double z, boolean k) {
+    public static double hasdouble(String msg) {
 
-        Scanner sc = new Scanner(System.in);
-        double cont = 0;
+        System.out.println(msg);
 
-        System.out.println("insira o valor para Salário");
-        x = sc.nextDouble();
-        System.out.println("insira o valor para IR");
-        y = sc.nextDouble();
-        System.out.println("insira o valor para Selliq");
-        z = sc.nextDouble();
+        while (!sc.hasNextDouble()) {
+            System.out.println("Entrada inválida, por favor, inserir um número real.");
+            sc.next();
+            System.out.println(msg);
+        }
 
-        cont = x - y;
+        return sc.nextDouble();
+    }
 
-        k = (z == cont);
+    public static boolean conta() {
+        double x, y, z;
 
-        return k;
+        x = hasdouble("insira o valor para Salário");
+        y = hasdouble("insira o valor para IR");
+        z = hasdouble("insira o valor para Selliq");
+
+        double cont = x - y;
+
+        return (z == cont);
     }
 
 }
