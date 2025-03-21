@@ -4,6 +4,8 @@
 // 200      10   190    (salliq < 190)                Falso
 // 300      15   285    (salliq = salario + ir)       Falso
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 import java.util.Scanner;
 
 public class ex_1 {

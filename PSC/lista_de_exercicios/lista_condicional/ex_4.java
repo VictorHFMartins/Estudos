@@ -1,5 +1,7 @@
 //Faça um programa que leia um número inteiro e retorna ao usuário uma mensagem informando se o número é par ou ímpar e se é positivo ou negativo.
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 import java.util.Scanner;
 
 public class ex_4 {

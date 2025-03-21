@@ -15,6 +15,8 @@
 // Grávidas
 // 11 g/dL
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 import java.util.Scanner;
 
 public class ex_7 {

@@ -1,5 +1,7 @@
 // Faça um programa para um banco de sangue em que o usuário informará qual o tipo sanguíneo de um paciente e o programa retornará que tipo de sangue este paciente pode receber.
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 import java.util.Scanner;
 
 public class ex_8 {

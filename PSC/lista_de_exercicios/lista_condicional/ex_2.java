@@ -5,6 +5,8 @@
 //d. (b + a) < = c
 //e. (c + a) > b
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 public class ex_2 {
     public static void main(String[] args) {
         int a, b, c;

@@ -4,6 +4,8 @@
 //b. (a + b) > 10 OR (a + b) == (c + +d)
 //c. (a >= c) AND (d >= c)
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 public class ex_3 {
     public static void main(String[] args) {
         int a, b, c, d;

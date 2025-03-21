@@ -1,5 +1,7 @@
 // Como pescador profissional, João tem uma cota diária de 50kg de peixe. Ele deve pesar os peixes pescados ao final de cada dia e pagar uma multa de R$ 4,00 por quilo excedente caso ultrapasse sua cota. Faça um programa que, ao informar o peso de peixes, o programa retorna o valor da multa. 
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 import java.util.Scanner;
 
 public class ex_6 {

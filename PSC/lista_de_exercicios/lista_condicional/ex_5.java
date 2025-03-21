@@ -2,6 +2,8 @@
 // Homens: Peso Ideal = (72,7 * altura) - 58
 // Mulheres: Peso Ideal = (62,1 * altura) – 44,7
 
+package PSC.lista_de_exercicios.lista_condicional;
+
 import java.util.Scanner;
 
 public class ex_5 {
