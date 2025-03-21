@@ -16,7 +16,9 @@ public class ex_5 {
             System.out.println("Digite novamente: ");
             entrada = sc.nextInt();
         }
-
+        
+        sc.close();
         System.out.println("Seu número é: " + entrada);
+
     }
 }
