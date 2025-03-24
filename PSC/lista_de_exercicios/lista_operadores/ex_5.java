@@ -27,7 +27,7 @@ public class ex_5 {
 
             }
             Double conversao = input * (9.0 / 5.0) + 32;
-            System.out.println("A temperatura de " + input + "ºC, em Fahrenheit é: " + String.format("%.2f", conversao) + "ºF");
+            System.out.println("A temperatura de " + input + "ºC, em Fahrenheit é de: " + String.format("%.2f", conversao) + "ºF.");
 
             System.out.println("Pressione x para tentar novamente, ou qualquer outra tecla para finalizar...");
             repeat = sc.nextLine().trim().toLowerCase();
