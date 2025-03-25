@@ -35,8 +35,7 @@ public class ex_4 {
                 System.out.println(("\u001B[32m" + input + "*" + i + " = " + res + "\u001B[0m"));
             }
 
-            System.out.println("");
-            System.out.println("\u001B[36mPressione x para tentar novamente, ou qualquer outra tecla para finalizar...\u001B[0m");
+            System.out.println("\n" + "\u001B[36mPressione x para tentar novamente, ou qualquer outra tecla para finalizar...\u001B[0m");
             repeat = sc.nextLine().trim().toLowerCase();
 
         } while (repeat.equals("x"));
