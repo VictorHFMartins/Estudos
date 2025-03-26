@@ -1,10 +1,10 @@
-// Faça um programa que verifica se o texto começa com letra em caixa alta ou não.
+// Faça um programa que verifica se o código inicial de um produto começa com “BEB”.
 
 package PSC.lista_de_exercicios.lista_string;
 
 import java.util.Scanner;
 
-public class ex_1 {
+public class ex_2 {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -14,10 +14,10 @@ public class ex_1 {
 
     public static void exercício() {
 
-        ValidarInicial("\n\u001B[36mInsira um texto: \u001B[0m");
+        ValidarInicioDoCodigo("\n\u001B[36mInsira o código: \u001B[0m");
     }
 
-    public static String ValidarInicial(String msg) {
+    public static String ValidarInicioDoCodigo(String msg) {
         String read;
         System.out.println(msg);
 
@@ -25,13 +25,15 @@ public class ex_1 {
 
             read = sc.nextLine();
 
-            if (Character.isUpperCase(read.charAt(0))) {
-                System.out.println("\u001B[32mTexto começa com caixa alta. Letra inicial: ('" + read.charAt(0)
+            if (read.charAt(0) == 'B' && read.charAt(1) == 'E' && read.charAt(2) == 'B') {
+                System.out.println("\u001B[32mO código começa com os caracteres: ('" + read.charAt(0) + read.charAt(1)
+                        + read.charAt(2)
                         + "')\u001B[0m");
                 return read;
             } else {
 
-                System.out.println("\u001B[31mtexto não começa com caixa alta. Letra inicial: ('" + read.charAt(0)
+                System.out.println("\u001B[31mO código não começa com os caracteres BEB. Caracteres iniciais: ('"
+                        + read.charAt(0) + read.charAt(1) + read.charAt(2)
                         + "')\u001B[0m");
                 System.out.println(msg);
             }
