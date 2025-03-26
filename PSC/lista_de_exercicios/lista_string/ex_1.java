@@ -1,6 +1,6 @@
 // Faça um programa que verifica se o texto começa com letra em caixa alta ou não.
 
-package PSC.lista_de_exercicios.lista_primeiros_desafios;
+package PSC.lista_de_exercicios.lista_string;
 
 import java.util.Scanner;
 
@@ -26,7 +26,8 @@ public class ex_1 {
             read = sc.nextLine();
 
             if (Character.isUpperCase(read.charAt(0))) {
-                System.out.println("\u001B[32mTexto começa com caixa alta.\u001B[0m");
+                System.out.println("\u001B[32mTexto começa com caixa alta.Letra inicial: ('" + read.charAt(0)
+                        +  "')\u001B[0m");
                 return read;
             } else {
 
