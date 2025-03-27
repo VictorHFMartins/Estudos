@@ -3,7 +3,7 @@
 // Média de altura dos homens;
 // O número de mulheres.
 
-package PSC.lista_de_exercicios.lista_primeiros_desafios.exercício_1;
+package PSC.lista_de_exercicios.lista_primeiros_desafios.ex_1;
 
 import java.util.ArrayList;
 import java.util.Random;

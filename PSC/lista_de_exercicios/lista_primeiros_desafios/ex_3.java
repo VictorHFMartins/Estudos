@@ -2,7 +2,7 @@
 // Entrada: O homem está alimentando as ponbas
 // Saída: O homem está alimentando as pombas
 
-package PSC.lista_de_exercicios.lista_primeiros_desafios.exercicio_3;
+package PSC.lista_de_exercicios.lista_primeiros_desafios;
 
 import java.util.Scanner;
 

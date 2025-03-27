@@ -1,6 +1,6 @@
 // Faça um programa em que o usuário informa a altura e o comprimento de uma parede e o programa informa a quantidade de latas de tinta que devem ser compradas. Sabe-se que uma lata de tinta consegue pintar 1.6 m² de parede.
 
-package PSC.lista_de_exercicios.lista_primeiros_desafios.exercicio_2;
+package PSC.lista_de_exercicios.lista_primeiros_desafios.ex_2;
 
 import java.util.Random;
 import java.util.Scanner;

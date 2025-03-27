@@ -1,4 +1,4 @@
-package PSC.lista_de_exercicios.lista_primeiros_desafios.exercicio_2;
+package PSC.lista_de_exercicios.lista_primeiros_desafios.ex_2;
 
 public class Parede {
     private double altura;

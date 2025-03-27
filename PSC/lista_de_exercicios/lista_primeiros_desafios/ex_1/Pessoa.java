@@ -1,4 +1,4 @@
-package PSC.lista_de_exercicios.lista_primeiros_desafios.exercício_1;
+package PSC.lista_de_exercicios.lista_primeiros_desafios.ex_1;
 
 public class Pessoa {
     private String nome;
