@@ -55,21 +55,21 @@ public class ex_1 {
         if (qtdF > 0)
             mediaAlturaF = acumulador2 / qtdF;
 
-        System.out.printf("A maior altura do grupo é de: %.2f metros, e a menor é: %.2f metros.%n", maiorAltura,
+        System.out.printf("\u001B[32mA maior altura do grupo é de: %.2f metros, e a menor é: %.2f metros.%n\u001B[0m", maiorAltura,
                 menorAltura);
 
         if (qtdM > 0) {
-            System.out.printf("A média de altura entre os homens é de: %.2f metros.%n", mediaAlturaM);
-            System.out.println("O número de homens é de: " + qtdM + ".");
+            System.out.printf("\u001B[32mA média de altura entre os homens é de: %.2f metros.%n", mediaAlturaM);
+            System.out.println("\u001B[32mO número de homens é de: " + qtdM + ".\\u001B[0m");
         } else {
-            System.out.println("Não há registros de homens.");
+            System.out.println("\u001B[31mNão há registros de homens.\u001B[0m");
         }
 
         if (qtdF > 0) {
-            System.out.printf("A média de altura entre as mulheres é de: %.2f metros.%n", mediaAlturaF);
-            System.out.println("O número de mulheres é de: " + qtdF + ".");
+            System.out.printf("\u001B[32mA média de altura entre as mulheres é de: %.2f metros.%n", mediaAlturaF);
+            System.out.println("\u001B[32mO número de mulheres é de: " + qtdF + ".\u001B[0m");
         } else {
-            System.out.println("Não há registros de mulheres.");
+            System.out.println("\u001B[31mNão há registros de mulheres.\u001B[0m");
         }
     }
 

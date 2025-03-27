@@ -103,6 +103,6 @@ public class Pessoa {
     @Override
 
     public String toString() {
-        return "Nome: " + nome + ", sexo: " + sexo + ", altura: " + altura + " metros.";
+        return "\u001B[32mNome: " + nome + ", sexo: " + sexo + ", altura: " + altura + " metros.\u001B[0m";
     }
 }
