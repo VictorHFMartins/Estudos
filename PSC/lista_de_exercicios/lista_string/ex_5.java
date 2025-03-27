@@ -70,7 +70,9 @@ public class ex_5 {
             while (true) {
 
                 if (tentativas <= 3) {
-                    System.out.print("\n\u001B[36mDigite uma palavra, 'd' para dica ou 'q' para sair: \u001B[0m");
+                    System.out.println("\n\u001B[36mDigite uma palavra, 'd' para dica ou 'q' para sair. \u001B[0m");
+                    System.out.print("\u001B[36mAguardando entrada... : \u001B[0m");
+
                     input = sc.nextLine().trim().toLowerCase();
 
                     if (input.equals("")) {
@@ -130,6 +132,7 @@ public class ex_5 {
 
             System.out.println("\n"
                     + "\u001B[36mPressione x para tentar novamente, ou qualquer outra tecla para finalizar...\u001B[0m");
+                    System.out.print("\u001B[36mAguardando entrada... : \u001B[0m");
 
             repeat = sc.nextLine().trim().toLowerCase();
         } while (repeat.equals("x"));
